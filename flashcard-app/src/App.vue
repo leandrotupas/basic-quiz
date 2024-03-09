@@ -3,35 +3,84 @@
 
   const questions = ref([
     {
-      question: "What is Vue JS?",
-      answer: "Framework",
-      options: [
-        'Framework',
-        'Library',
-        'Programming Language'
-      ],
-      selected: null
-    },
-    {
-      question: "2+2?",
-      answer: "4",
-      options: [
-        '1',
-        '2',
-        '4'
-      ],
-      selected: null
-    },
-    {
-      question: "Ariana's Latest Release?",
-      answer: "Eternal Sunshine",
-      options: [
-        'Eternal Sunshine',
-        'Positions',
-        'Thank You Next'
-      ],
-      selected: null
-    },
+    question: "What is my favorite color?",
+    answer: "Purple",
+    options: [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow",
+      "Purple"
+    ],
+    selected: null
+  },
+  {
+    question: "Which is my favorite season?",
+    answer: "Spring",
+    options: [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    selected: null
+  },
+  {
+    question: "What is my preferred genre of music?",
+    answer: "Pop",
+    options: [
+      "Pop",
+      "Rock",
+      "Hip Hop",
+      "Electronic",
+      "Classical",
+      "Other"
+    ],
+    selected: null
+  },
+  {
+    question: "Do I prefer coffee or tea?",
+    answer: "Coffee",
+    options: [
+      "Coffee",
+      "Tea"
+    ],
+    selected: null
+  },
+  {
+    question: "What is your favorite type of cuisine?",
+    answer: "Chinese",
+    options: [
+      "Italian",
+      "Chinese",
+      "Mexican",
+      "Indian",
+      "Japanese",
+      "Other"
+    ],
+    selected: null
+  },
+  {
+    question: "What's my favorite coffee shop?",
+    answer: "Kapewenoz",
+    options: [
+      "Bandit's Brew",
+      "Kapewenoz",
+      "San Belos"
+    ],
+    selected: null
+  },
+  {
+    question: "Who's my favorite dog?",
+    answer: "Oreo",
+    options: [
+      "Crem-o",
+      "Oreo",
+      "Milo",
+      "Ovaltine"
+    ],
+    selected: null
+  }
   ])
 
   const quizCompleted = ref(false)
